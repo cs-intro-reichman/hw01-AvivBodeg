@@ -11,6 +11,6 @@ public class Triangle {
 		double c = Double.parseDouble(args[2]);
 
 		boolean isTriangle = (a + b > c) && (a + c > b) && (b + c > a);
-		System.out.println(a + ", " + b + ", " + c + ", " + isTriangle);
+		System.out.println(a + ", " + b + ", " + c + ": " + isTriangle);
 	}
 }
