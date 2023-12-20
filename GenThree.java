@@ -3,8 +3,7 @@
  * prints them, and then prints the minimal number that was generated.
  */
 public class GenThree {
-	public static void main(String[] args)
-	{
+	public static void main(String[] args){
 		double min = Double.parseDouble(args[0]);
 		double max = Double.parseDouble(args[1]);
 
